@@ -5,14 +5,18 @@ Welcome to the Word Counter Challenge! In this challenge, you will be working wi
 ## Instructions
 
 1. Clone the repository to your local machine.
-2. Open the `word_counter.py` file in your preferred Python editor or IDE.
-3. Read through the comments in the code to understand the structure and purpose of the functions.
-4. Implement the logic for counting words in the `count_words` function. This function should count the total number of words in a file and return an integer representing the count.
-5. Implement the logic for counting word frequencies in the `count_word_frequencies` function. This function should count the frequency of each word in the file and return a dictionary with the word frequencies. The keys of the dictionary should be the words, and the values should be the corresponding frequencies.
-6. In the `main` function, call the `count_words` and `count_word_frequencies` functions with the file path provided by the user.
-7. Display the total number of words to the user by printing the count returned by the `count_words` function.
-8. Display the word frequency count to the user by iterating over the dictionary returned by the `count_word_frequencies` function and printing each word along with its frequency.
-9. Test your code with different files to ensure it works correctly.
+1. Open the `word_counter.py` file in your preferred Python editor or IDE.
+1. Read through the comments in the code to understand the structure and purpose of the functions.
+1. Implement the logic for counting words in the `count_words` function. This function should count the total number of words in a file and return an integer representing the count.
+1. Implement the logic for counting word frequencies in the `count_word_frequencies` function. This function should count the frequency of each word in the file and return a dictionary with the word frequencies. The keys of the dictionary should be the words, and the values should be the corresponding frequencies.
+1. Implement the logic for counting unique words in the `count_unique_words` function. This function should count the total number of unique words in the file and return an integer representing the count.
+1. Implement the logic for finding the most common words in the `most_common_words` function. This function should find the most frequently occurring words in the file and return a list of tuples, where each tuple contains a word and its frequency. The list should be sorted in descending order based on the word frequency.
+1. In the `main` function, call the `count_words`, `count_word_frequencies`, `count_unique_words`, and `most_common_words` functions with the file path provided by the user.
+1. Display the total number of words to the user by printing the count returned by the `count_words` function.
+1. Display the total number of unique words to the user by printing the count returned by the `count_unique_words` function.
+1. Display the word frequency count to the user by iterating over the dictionary returned by the `count_word_frequencies` function and printing each word along with its frequency.
+1. Display the most common words to the user by iterating over the list returned by the `most_common_words` function and printing each word along with its frequency.
+1. Test your code with different files to ensure it works correctly.
 
 ## Submission
 
