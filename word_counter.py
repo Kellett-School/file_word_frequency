@@ -42,10 +42,10 @@ def most_common_words(text):
     # Implementation goes here
     pass
 
-# Function to count word frequencies in a file
+# Function to count word frequencies in a given string
 def count_word_frequencies(text):
     """
-    Counts the frequency of each word in a file and returns a dictionary with word frequencies.
+    Counts the frequency of each word in a given string and returns a dictionary with word frequencies.
     
     Args:
         text (str): The input text.
